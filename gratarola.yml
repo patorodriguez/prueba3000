@@ -1,0 +1,20 @@
+#include <SFML/Graphics.hpp>
+#include <vector>
+
+// Dimensiones de la pantalla
+const int SCREEN_WIDTH = 800;
+const int SCREEN_HEIGHT = 600;
+
+// Tamaño de la casilla
+const int TILE_SIZE = 20;
+
+// Velocidad del juego
+const int SNAKE_SPEED = 200;
+
+// Direcciones del movimiento
+enum Direction {
+  Up,
+  Down,
+  Left,
+  Right
+};
